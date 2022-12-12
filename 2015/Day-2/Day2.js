@@ -1,13 +1,6 @@
 var fs = require('fs');
 
-let inputData = fs.readFileSync('input.txt', 'utf8').split("\n")
-
-let test = [
-  "2x3x4",
-  "1x1x10"
-]
-
-// 2*l*w + 2*w*h + 2*h*l
+let inputData = fs.readFileSync('input.txt', 'utf8').split("\n");
 
 const part1 = () => {
 
