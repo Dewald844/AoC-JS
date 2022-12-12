@@ -1,7 +1,5 @@
 const crypto = require('crypto');
 
-// let hash = crypto.createHash('md5').update('some_string').digest("hex")
-
 const Part1 = () => {
   for (var i = 0; i < 1000000; i ++){
     let test = "ckczppom" + i;
