@@ -97,5 +97,4 @@ const Part2 = () => {
 }
 
 console.log("Answer 1 : " + Part1 ());
-
 console.log("Answer 2 : " + Part2 ());
